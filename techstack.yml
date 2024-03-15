@@ -1,0 +1,291 @@
+repo_name: ctavolazzi/deeplake
+report_id: 2f42c390cb5e2d028369eac0e95ab933
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-15T02:02:02+00:00'
+requested_by: FayazRahman
+provider: github
+branch: main
+detected_tools_count: 23
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/ctavolazzi/deeplake
+  detection_source: Repo Metadata
+- name: Flask
+  description: A microframework for Python based on Werkzeug, Jinja 2 and good intentions
+  website_url: http://flask.pocoo.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1001/default_6d109315b60108628b7cd3e159b84645c31ef0e2.png
+  detection_source_url: https://github.com/ctavolazzi/deeplake/blob/main/deeplake/requirements/common.txt
+  detection_source: deeplake/requirements/common.txt
+  last_updated_by: Fariz Rahman
+  last_updated_on: 2022-04-06 20:43:38.000000000 Z
+- name: Azure Storage
+  description: Reliable, economical cloud storage for data big and small
+  website_url: http://azure.microsoft.com/en-us/services/storage/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/2099/azureStorage.png
+  detection_source_url: https://github.com/ctavolazzi/deeplake/blob/main/deeplake/requirements/common.txt
+  detection_source: deeplake/requirements/common.txt
+  last_updated_by: FayazRahman
+  last_updated_on: 2023-05-23 16:05:46.000000000 Z
+- name: Google Cloud Storage
+  description: Durable and highly available object storage service
+  website_url: https://cloud.google.com/products/cloud-storage/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/694/Cloud_Storage.png
+  detection_source_url: https://github.com/ctavolazzi/deeplake/blob/main/deeplake/requirements/common.txt
+  detection_source: deeplake/requirements/common.txt
+  last_updated_by: FayazRahman
+  last_updated_on: 2023-05-23 16:05:46.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/ctavolazzi/deeplake
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ctavolazzi/deeplake
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/ctavolazzi/deeplake/blob/main/.github/workflows/deeplake-benchmark.yaml
+  detection_source: ".github/workflows/deeplake-benchmark.yaml"
+  last_updated_by: artgish
+  last_updated_on: 2023-04-18 09:11:21.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/ctavolazzi/deeplake/blob/main/deeplake/requirements/tests.txt
+  detection_source: deeplake/requirements/tests.txt
+  last_updated_by: McCrearyD
+  last_updated_on: 2021-05-01 19:39:34.000000000 Z
+- name: hub
+  description: Wraps Git with extra features that make working with GitHub easier
+    (by GitHub)
+  website_url: http://hub.github.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Git Tools
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/ctavolazzi/deeplake/blob/main/bin/docker-compose.yaml
+  detection_source: bin/docker-compose.yaml
+  last_updated_by: david.buniatyan@gmail.com
+  last_updated_on: 2021-10-11 00:21:16.000000000 Z
+- name: pre-commit
+  description: A slightly improved pre-commit hook for git
+  website_url: http://jish.github.io/pre-commit/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Git Tools
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/ctavolazzi/deeplake/blob/main/deeplake/requirements/tests.txt
+  detection_source: deeplake/requirements/tests.txt
+  last_updated_by: AdkSarsen
+  last_updated_on: 2023-11-23 16:28:57.000000000 Z
+- name: pytest
+  description: A full-featured Python testing tool to help you write better programs
+  website_url: http://pytest.org/latest/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source_url: https://github.com/ctavolazzi/deeplake/blob/main/.github/langchain-tests/requirements.txt
+  detection_source: ".github/langchain-tests/requirements.txt"
+  last_updated_by: Aram Zaqaryan
+  last_updated_on: 2023-08-22 20:01:11.000000000 Z
+- name: Pillow
+  description: Python Imaging Library
+  website_url: https://python-pillow.github.io/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: Image Processing and Management
+  image_url: https://img.stackshare.io/service/2375/default_1f67b0ca7416a9f52beb655f90b5602d5ef74b75.jpg
+  detection_source_url: https://github.com/ctavolazzi/deeplake/blob/main/deeplake/requirements/common.txt
+  detection_source: deeplake/requirements/common.txt
+  last_updated_by: Fariz Rahman
+  last_updated_on: 2022-01-19 14:34:45.000000000 Z
+- name: dicom
+  description: A High Performance DICOM Medical Image Parser in Go
+  website_url: https://github.com/suyashkumar/dicom
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: Image Processing and Management
+  image_url: https://img.stackshare.io/service/11171/dicom.png
+  detection_source_url: https://github.com/ctavolazzi/deeplake/blob/main/deeplake/requirements/common.txt
+  detection_source: deeplake/requirements/common.txt
+  last_updated_by: Fariz Rahman
+  last_updated_on: 2022-04-06 20:43:38.000000000 Z
+- name: IPython
+  description: A command shell for interactive computing in multiple programming languages
+  website_url: http://ipython.org/index.html
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Shells
+  image_url: https://img.stackshare.io/service/4477/820a0bb9a44fe5a1d640993ab1e6fd84_400x400.png
+  detection_source_url: https://github.com/ctavolazzi/deeplake/blob/main/deeplake/requirements/common.txt
+  detection_source: deeplake/requirements/common.txt
+  last_updated_by: Fariz Rahman
+  last_updated_on: 2023-04-20 01:01:39.000000000 Z
+- name: NumPy
+  description: Fundamental package for scientific computing with Python
+  website_url: http://www.numpy.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Data Science Tools
+  image_url: https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png
+  detection_source_url: https://github.com/ctavolazzi/deeplake/blob/main/deeplake/requirements/common.txt
+  detection_source: deeplake/requirements/common.txt
+  last_updated_by: McCrearyD
+  last_updated_on: 2021-05-02 00:06:01.000000000 Z
+- name: OpenAI
+  description: Creating safe AGI that benefits all
+  website_url: https://openai.com/
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/48786/default_8b1119bcbb159cebebc2f6cfc9cd2e359b169d22.jpg
+  detection_source_url: https://github.com/ctavolazzi/deeplake/blob/main/.github/langchain-tests/requirements.txt
+  detection_source: ".github/langchain-tests/requirements.txt"
+  last_updated_by: Aram Zaqaryan
+  last_updated_on: 2023-08-22 20:01:11.000000000 Z
+- name: Pandas
+  description: High-performance, easy-to-use data structures and data analysis tools
+    for the Python programming language
+  website_url: http://pandas.pydata.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Data Science Tools
+  image_url: https://img.stackshare.io/service/2180/1284191.png
+  detection_source_url: https://github.com/ctavolazzi/deeplake/blob/main/deeplake/requirements/plugins.txt
+  detection_source: deeplake/requirements/plugins.txt
+  last_updated_by: Adilkhan Sarsen
+  last_updated_on: 2023-05-17 15:40:02.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/ctavolazzi/deeplake
+  detection_source: Repo Metadata
+- name: Sphinx
+  description: Open source full text search server, designed from the ground up with
+    performance, relevance (aka search quality), and integration simplicity in mind
+  website_url: http://sphinxsearch.com/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search Engines
+  image_url: https://img.stackshare.io/service/1598/TtqoAo1V.png
+  detection_source_url: https://github.com/ctavolazzi/deeplake/blob/main/deeplake/requirements/docs.txt
+  detection_source: deeplake/requirements/docs.txt
+  last_updated_by: artgish
+  last_updated_on: 2023-01-12 18:06:55.000000000 Z
+- name: TensorFlow
+  description: Open Source Software Library for Machine Intelligence
+  website_url: https://www.tensorflow.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Machine Learning Tools
+  image_url: https://img.stackshare.io/service/4717/FtFnqC38_400x400.png
+  detection_source_url: https://github.com/ctavolazzi/deeplake/blob/main/deeplake/requirements/plugins.txt
+  detection_source: deeplake/requirements/plugins.txt
+  last_updated_by: Shashank Agarwal
+  last_updated_on: 2021-06-10 08:59:00.000000000 Z
+- name: mypy
+  description: Developers of mypy, a Python variant with seamless dynamic and static
+    typing
+  website_url: http://mypy-lang.org/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/7350/eaca159133a3901e24ddb407d1235c25_normal.png
+  detection_source_url: https://github.com/ctavolazzi/deeplake/blob/main/deeplake/requirements/tests.txt
+  detection_source: deeplake/requirements/tests.txt
+  last_updated_by: AdkSarsen
+  last_updated_on: 2023-11-23 16:28:57.000000000 Z
+- name: openai
+  description: The official Python library for the openai API
+  package_url: https://pypi.org/project/openai
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/deeplake/blob/main/.github/langchain-tests/requirements.txt
+  detection_source: ".github/langchain-tests/requirements.txt"
+  last_updated_by: Aram Zaqaryan
+  last_updated_on: 2023-08-22 20:01:11.000000000 Z
+- name: python-dotenv
+  description: Add .env support to your django/flask apps in development and deployments
+  package_url: https://pypi.org/project/python-dotenv
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20095/default_3141eabecdd8efa55de73a33c43f2ac0d5bbf954.png
+  detection_source_url: https://github.com/ctavolazzi/deeplake/blob/main/.github/langchain-tests/requirements.txt
+  detection_source: ".github/langchain-tests/requirements.txt"
+  last_updated_by: Aram Zaqaryan
+  last_updated_on: 2023-08-22 20:01:11.000000000 Z
